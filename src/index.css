@@ -1,0 +1,76 @@
+.input{
+    border: none;
+    width: 300px;
+    height: 25px;
+}
+.input:focus {
+    outline: none;
+  }
+.container{
+    margin: auto;
+    max-width: 400px;
+    border: 1px solid black;
+}
+.box{
+    text-align: center;
+    display: grid;
+    grid-gap: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 200px;
+    margin: 5px auto;
+}
+
+.card-container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 8px auto;
+    background: #fff;
+    gap: 24px;
+}
+
+.form-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 8px auto;
+    background: #fff;
+    gap: 4px;
+}
+
+.card-avatar {
+    flex: 0 0 auto;
+    font-size: 2.5rem;
+    margin-right: 16px;
+}
+
+.card-info {
+    flex: 1 1 auto;
+}
+
+.card-actions {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.card-actions button {
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px 0;
+}
+
+.card-actions button:hover {
+    background: #f0f0f0;
+}
